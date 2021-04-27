@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+        }
+.bg-primary{
+    background: cyan;
+}      
+    </style>
+</head>
+
+<body>
+    <div style="color:chartreuse">
+        <p>hello india</p>
+    </div>
+    <button id="btn">Login</button>
+    <div class="div">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore libero consectetur est?
+        </p>
+    </div>
+    <div class="div">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore libero consectetur est?
+        </p>
+    </div>
+
+</body>
+<script>
+console.log('hello this is dom');
+ let elem = document.getElementById('btn').style.border='12px solid red';
+ console.log(elem);
+let elemclass = document.getElementsByClassName('div');
+elemclass[0].classlist.add('bg-primary')
+console.log(elemclass);
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
