@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(54, 51, 51);
+}
+
+.container {
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+table {
+    margin: auto;
+}
+
+input {
+   border-radius: 55px;
+    height: 65px;
+    width: 456px;
+    font-size: 34px;
+}
+
+button {
+border:1px solid black;
+    border-radius: 99px;
+    font-size: 27px;
+    margin: 7px;
+    width: 90px;
+    height: 83px;
+    cursor: pointer;
+}
+
+.calculator {
+    border: 7px dashed rgb(142, 131, 131);
+    background-color: rgb(10, 9, 9);
+    padding: 23px;
+    /* border-radius: 53px; */
+    display: inline-block;
+}
+h2{
+  
+    color: paleturquoise;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+   background-color:black;
+   color: white;
+   border:1px solid white;
+}
