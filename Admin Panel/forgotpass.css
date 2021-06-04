@@ -1,0 +1,151 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-weight:500;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    font-family: revert;
+    color: #4a3933;
+}
+
+
+a{
+    text-decoration: none;
+    color: red;;
+}
+a:hover{
+    text-decoration: underline;
+    }
+
+.split-screen {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+
+ .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .right .copy {
+        
+        color:black;
+        text-align:center;
+        font-size: 22px;
+        margin: 22px ;
+        font-family: 'Righteous', cursive;
+    }
+    .right .copy p {
+        margin: 1.5rem 4px;
+        font-size: 9.875px;
+        font-family: initial; 
+    }
+    .right form{
+        /* border: 2px dashed black; */
+        width: 420px;
+        margin-top: 28px;
+        height: 50vh;
+        padding: 12px;
+      
+        background-color: #white;
+       
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 2px solid red !important;
+        border: 0px;
+        padding: 0.78em;
+        margin-bottom: 1.15rem;
+        font-size: 0.9rem;
+        margin-top: 2.1em;
+    }
+    label{
+        display: block;
+        margin-bottom: 0.45rem;
+        font-size: 0.85rem;
+        font-style: initial;
+        font-family: 'Righteous', cursive;
+        color: #978282;
+    }
+    .input-password{
+        position: relative;
+    }
+
+    .signup-butt{
+    margin: auto;
+    display: block;
+    width: 55%;
+    background: #DA3232;
+    color: white;
+    letter-spacing: 1.5px;
+    margin-top: 2.45rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: bold;
+    border:0px;
+    }
+   
+   
+
+    @media screen and (min-width:900px){
+        .split-screen{
+            flex-direction: row;
+            height:100vh;
+        }
+     .right{
+              display: flex;
+              width: 50%;              
+              height: auto;
+        }
+
+
+        .left{
+            display: flex;
+            width: 50%;              
+            height: auto;
+            background: url('hello2.svg') no-repeat  ;
+            background-attachment:center;
+            height:100vh;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+      }
+
+
+
+      
+    }
+    
+    .right{
+       
+    background-color: white;
+    height: 100vh;
+
+    }
+    
+    .companyname ul{
+        font-family: 'Righteous', cursive;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+.red{
+    color:#DA3232;
+}
+    .nav-item{
+        margin-right: 96px;
+    }
